@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>TapasTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/inicioStyle.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>TapasTop</h1>
+    </header>
+    <nav> 
+        <a href="inicio.html" class="link">Inicio</a>
+        <a href="buscar-degustacion.html" class="link">Busca una degustación</a>
+        <a href="ayuda.html" class="link">Consultar ayuda</a>
+        <a class="link" onclick="logout()" style="cursor: pointer;">Cerrar sesion</a>
+    </nav>
+    <section class="top">
+        <form class="searchBar" action="degustacion.html" method="get">
+            <input type="text" placeholder="Nombre del plato" id="plateNameSearch" name="plateName" required>
+            <input type="text" placeholder="Nombre del local" id="localNameSearch" name="localName" required>
+            <button type="submit"><img src="images/search.png" ></button>
+        </form>
+    </section>
+    <section class="seccion1">
+        <article class="post2" id="post">
+        </article>
+    </section>
+    <script src="js/degustacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>TapasTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/indexStyle.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>TapasTop</h1>
+    </header>
+    <section class="registro">
+        <article class="post">   
+            <img src="https://www.olivetto.com.co/wp-content/uploads/tapas-espanolas-imagen-destacada.jpg" height="600" class="img"/> 
+            <section class="seccion">
+                <form id="form1">
+                    <h2> ¡Bienvenido a TapasTop! </h2>
+                    <p class="texto"> Introduce tu fecha de nacimiento para verificar tu edad</p>
+                    <div class="inputContainer">
+                        <input type="date" class="input" id="birthDate">
+                        <label class="label">Fecha de nacimiento</label>
+                    </div>     
+                    <div>
+                        <input type="button" class="submitBtn" value="Siguiente" onclick="verifyEdad()"> 
+                        <a href="login.html" class="link"> ¿Tienes cuenta? Inicia sesión</a>
+                        <a href="ayuda1.html" class="link"> ¿Necesitas ayuda? Consultar</a>
+                        <p id="message"></p>
+                    </div>
+                </form>   
+            </section>
+        </article>  
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

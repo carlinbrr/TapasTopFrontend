@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>TapasTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/inicioStyle.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1 class="title">TapasTop</h1>
+    </header>
+    <nav> 
+        <a href="inicio.html" class="link">Inicio</a>
+        <a href="buscar-degustacion.html" class="link">Busca una degustación</a>
+        <a href="ayuda.html" class="link">Consultar ayuda</a>
+        <a class="link" onclick="logout()" style="cursor: pointer;">Cerrar sesion</a>
+    </nav>
+    <section class="seccion1">
+        <article class="post">
+            <h2> Perfil del usuario </h2>
+            <section class="left">
+                <img height="200" width="200" class="img" id="image"/> 
+                <h3> Nombre de usuario</h3>
+                <p id="username"> </p>
+                <h3> Direccion de correo electrónico</h3>
+                <p id="email"> </p>
+                <h3> Nº de degustaciones añadidas en la última semana</h3>
+                <p id="nDegustacionesLastWeek" class="p"></p>
+            </section>
+            <section class="right">
+                <h3> Nombre</h3>
+                <p id="firstName" class="p"></p>
+                <h3> Apellidos</h3>
+                <p id="lastName" class="p"> </p>
+                <h3> Dirección</h3>
+                <p id="address" class="p"> </p>
+                <h3> Pais</h3>
+                <p id="country" class="p"></p>
+                <h3> Género</h3>
+                <p id="gender" class="p"></p>
+                <h3> Descripción</h3>
+                <p id="description" class="p"></p>
+            </section>
+        </article>
+    </section>
+    <script src="js/inicio.js"></script>
+</body>
+</html>

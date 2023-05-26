@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>TapasTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>TapasTop</h1>
+    </header>
+    <section class="registro">
+        <article class="post">   
+            <img src="https://mh-2-banco-de-imagen.panthermedia.net/media/media_detail/0003000000/03680000/~mesa-de-tapas-espa%C3%B1olas_03680709_detail.jpg" height="600" class="img"/> 
+            <section class="seccion">
+                <form class="form2">
+                    <h2> Recupera tu contraseña</h2>
+                    <div class="inputContainer">
+                        <input type="email" class="input" placeholder="a" id="email"> 
+                        <label class="label">Correo electrónico</label>
+                    </div>     
+                    <div>   
+                        <input type="button" class="submitBtn" value="Enviar link" onclick="sendPwdRecoveryEmail()">
+                        <p class="nota"> Se enviará un link para recuperar la contraseña</p>
+                        <p id="message"></p>
+                        <a id="link" class="link" href="login.html"></a>
+                    </div>
+                </form>  
+            </section>
+        </article>    
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

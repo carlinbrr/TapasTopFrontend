@@ -1,0 +1,164 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    padding: 1rem 1rem;
+}
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    color : white;
+    margin: 1rem;
+}
+
+/*----------------------------------------*/
+
+.registro {
+    width: 1100px;
+    margin: 3rem auto;
+}
+
+section article {
+    background-color: #fff;
+    height: 600px;
+	border-radius: 10px;
+}
+
+.img{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.seccion {
+    display: inline-block;
+    vertical-align: top;
+    height: 600px;
+    width: 690px;
+}
+
+section article h2{
+    margin: 1rem; 
+    text-align: center;
+	font-size: 2rem;
+}
+
+.form {
+	width: 400px;
+	margin: 2rem auto;
+}
+  
+.inputContainer {
+	position: relative;
+	height: 45px;
+	width: 90%;
+	margin-bottom: 17px;
+}
+  
+.input {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #DADCE0;
+	border-radius: 7px;
+	font-size: 16px;
+	padding: 0 20px;
+	outline: none;
+	background: none;
+	z-index: 1;
+}
+  
+  
+.label {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	padding: 0 4px;
+	background-color: white;
+	color: #DADCE0;
+	font-size: 16px;
+	transition: 0.5s;
+	z-index: 0;
+}
+  
+::placeholder {
+	color: transparent;
+}
+  
+.submitBtn {
+	display: block;
+	padding: 15px 30px;
+	border: none;
+	background-color: #364552;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 16px;
+	float: right;
+}
+
+.input:focus + .label {
+	top: -7px;
+	left: 3px;
+	z-index: 10;
+	font-size: 14px;
+	font-weight: 600;
+	color: #364552;
+}
+  
+.input:not(:placeholder-shown)+ .label {
+	top: -7px;
+	left: 3px;
+	z-index: 10;
+	font-size: 14px;
+	font-weight: 600;
+}
+  
+.input:focus {
+	border: 2px solid #364552;
+}
+
+.nota{
+	color: slategrey;
+	margin: 0.5rem;
+}
+
+.nota2{
+	float: left;
+}
+
+.form2{
+	width: 400px;
+	margin: 10rem auto;
+}
+
+.form3{
+	margin: 15rem auto;
+	text-align: center;
+}
+
+.form a {
+	margin-left: 0.5rem;
+}
+
+.link {
+	transition: color 0.2s ease;
+	color: black;
+    text-decoration: none;
+}
+
+:hover.link {
+    color: cornflowerblue;
+}
+
+
+

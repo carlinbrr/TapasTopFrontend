@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>TapasTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>TapasTop</h1>
+    </header>
+    <section class="registro">
+        <article class="post">   
+            <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/thumbnail-cabecera-completa/tapas-s722530270.jpg" height="600" class="img"/> 
+            <section class="seccion">
+                <form class="form2">
+                    <h2> Inicia sesión</h2>
+                    <div class="inputContainer">
+                        <input type="text" class="input" placeholder="a" id="username">
+                        <label class="label">Nombre de Usuario *</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="password" class="input" placeholder="a" id="password"> 
+                        <label class="label">Contraseña *</label>
+                    </div>     
+                    <div>   
+                        <input type="button" class="submitBtn" value="Iniciar sesión" onclick="login()">
+                        <p class="nota"> (*) Son campos obligatorios </p>
+                        <a href="recuperarPwd.html" class="link"> ¿Has olvidado la contraseña?</a>
+                        <br>
+                        <a href="index.html" class="link"> ¿No tienes cuenta? Registrate</a> 
+                        <p id="message"></p>
+                    </div>
+                </form>  
+            </section>
+        </article>    
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
